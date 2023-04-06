@@ -16,3 +16,5 @@ root.render(
 
 
 // reportWebVitals();
+// Comando para iniciar projeto 
+// npm start
