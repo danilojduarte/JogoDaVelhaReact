@@ -1,9 +1,17 @@
 import React from "react";
 import Sobre from './objects/Sobre';
+import Logo from "./objects/Logo";
 
 function App() {
   return (
-    <Sobre />
+    <div>
+      <Logo />
+      <Sobre />      
+    </div>
+
+
+
+
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
