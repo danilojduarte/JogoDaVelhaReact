@@ -9,7 +9,7 @@ const Header = () => (
     <header className="header">
       <Logo />
       <Sobre />
-      <Menu />  
+      <Menu />
     </header>
 );
 
