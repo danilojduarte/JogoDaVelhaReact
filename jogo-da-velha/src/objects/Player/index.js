@@ -1,11 +1,19 @@
 import React from 'react';
 import './styles.css'
 import playerX from '../../img/jogador-x.png';
+import playerO from '../../img/jogador-o.png';
 
-const Player = () => (
-    <button className='player'>
-        <img src={playerX} alt="Jogador X" />
-    </button>
-);
+const Player = ({player}) => {
+    const players = [];
+    players['x'] = playerX
+    players['o'] = playerO
+
+
+    return(
+        <button className='player'>
+            <img src={players[player]} alt={`Jogador ${player.toUpperCase()}`}/>
+        </button>
+    )
+};
 
 export default Player;
