@@ -4,15 +4,19 @@ import Player from '../../objects/Player';
 
 const Hashtag = () => (
     <Card>
-        <Player player = "o" />
-        <Player player = "x" />
-        <Player player = "o" />
-        <Player player = "o" />
-        <Player player = "x" />
-        <Player player = "o" />
-        <Player player = "o" />
-        <Player player = "x" />
-        <Player player = "o" />
+        <ul className='hastag'>
+            <li className='item'><Player player = "o" /></li>
+            <li className='item'><Player player = "o" /></li>
+            <li className='item'><Player player = "x" /></li>
+
+            <li className='item'><Player player = "o" /></li>
+            <li className='item'><Player player = "x" /></li>
+            <li className='item'><Player player = "o" /></li>
+
+            <li className='item'><Player player = "o" /></li>
+            <li className='item'><Player player = "x" /></li>
+            <li className='item'><Player player = "o" /></li>
+        </ul>
     </Card>
 );
 
