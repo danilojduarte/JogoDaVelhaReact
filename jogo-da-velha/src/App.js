@@ -1,16 +1,16 @@
 import React from "react";
+import './app.css';
 import Hashtag from "./components/Hashtag";
 import Header from "./components/Header";
 
 
-function App() {
-  return (
-    <>
+
+const App = () => (
+    <main className="app">
   <Header />
   <Hashtag />
-   </>
+   </main>
   );
-}
 
 export default App;
 
