@@ -1,12 +1,9 @@
 import React from "react";
 import './app.css';
 
-
+import Checkbox from "./objects/Checkbox";
 import Header from "./components/Header";
 import Hashtag from "./components/Hashtag";
-import Input from "./objects/input";
-
-
 
 
 
@@ -14,7 +11,7 @@ const App = () => (
     <main className="app">
       <Header />
       <Hashtag />
-      <Input id="show" value="show" type="checkbox" content="Mostrar eventos" />
+      <Checkbox id="show" value="show" type="checkbox" content="Mostrar eventos" />
    </main>
   );
 
