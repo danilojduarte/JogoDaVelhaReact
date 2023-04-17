@@ -1,7 +1,11 @@
 import React from "react";
 import './app.css';
-import Hashtag from "./components/Hashtag";
+
+import Label from "./objects/Label";
 import Header from "./components/Header";
+import Hashtag from "./components/Hashtag";
+
+
 
 
 
@@ -9,6 +13,7 @@ const App = () => (
     <main className="app">
   <Header />
   <Hashtag />
+  <Label content="Mostrar Evento" />
    </main>
   );
 
