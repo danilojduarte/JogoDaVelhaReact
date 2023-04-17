@@ -4,6 +4,7 @@ import './app.css';
 import Label from "./objects/Label";
 import Header from "./components/Header";
 import Hashtag from "./components/Hashtag";
+import Input from "./objects/input";
 
 
 
@@ -13,6 +14,7 @@ const App = () => (
     <main className="app">
   <Header />
   <Hashtag />
+  <Input value="show" />
   <Label content="Mostrar Evento" />
    </main>
   );
