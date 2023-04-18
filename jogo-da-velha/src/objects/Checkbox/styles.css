@@ -1,0 +1,8 @@
+.input {
+    
+}
+
+.label::before {
+    content: 'dadsad';
+    color:red;
+}
